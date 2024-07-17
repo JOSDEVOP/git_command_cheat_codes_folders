@@ -10,3 +10,13 @@ commands to setup git or config it one your computer manually on terminal is 1.g
 3.to check if the configuration work you can type git config --get-all user.name or get config user.name.The terminal should 
 print any username if it really worked  
 </p>
+##Gitcheat-codes
+-git status: always run this a directory to check if the  directory has been git initialiazed. It can also be used 
+to check  if the new changes have been staged and if git is tracking the new modifications 
+-git init : initialiazes a git repo .git folder in its current directory
+-git add . :tells git to track the new changes made to a file 
+-git commit  -m "": creates a message along with the files that have been stagged and ready to be pushed to the repo
+- git restore --staged name of file : is used to unstage a file that has been staged .eg git restore --staged go.txt
+-git logs : it displays all the log of committed messages as you git push the current changes.
+-rm -rf  directory or folder name : deletes a directory that has been provided to it. eg rm -rf  animalfolder
+-rm -f  filename :deletes a file that has been git it . 
