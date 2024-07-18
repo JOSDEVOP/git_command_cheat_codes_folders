@@ -22,4 +22,6 @@ to check  if the new changes have been staged and if git is tracking the new mod
 -rm -f  filename :deletes a file that has been git it . 
 -git log --oneline :modifies and logs and makes them more readable.
 -git commit  --amend: is used to reset an already  commited message  git commit -m"" where by the default text editor is opened to the previous git commit -m"" message  .
-<p></p>
+
+<p> Head: its a branch reference to its current or lastest commit on that particular branch .if say the branch you are working is 
+version1 and you make a commit the  Head would point to version1 branch lastest commit </p>
