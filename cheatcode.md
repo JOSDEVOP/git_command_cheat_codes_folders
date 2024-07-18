@@ -24,4 +24,9 @@ to check  if the new changes have been staged and if git is tracking the new mod
 -git commit  --amend: is used to reset an already  commited message  git commit -m"" where by the default text editor is opened to the previous git commit -m"" message  .
 
 <p> Head: its a branch reference to its current or lastest commit on that particular branch .if say the branch you are working is 
-version1 and you make a commit the  Head would point to version1 branch lastest commit </p>
+version1 and you make a commit the  Head would point to version1 branch lastest commit.
+-git branch :logs all the branches in the repo.
+-git branch branchname : creates a new branch but doesnt log into that brunch yet.eg git branch edition1 would create a new branch called edition1.
+-git checkout branchname: would log us into the branch which its name has been .
+-git checkout -b branchname:would create a new branch with the name given.
+ </p>
