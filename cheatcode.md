@@ -20,3 +20,5 @@ to check  if the new changes have been staged and if git is tracking the new mod
 -git logs : it displays all the log of committed messages as you git push the current changes.
 -rm -rf  directory or folder name : deletes a directory that has been provided to it. eg rm -rf  animalfolder
 -rm -f  filename :deletes a file that has been git it . 
+-git log --oneline :modifies and logs and makes them more readable.
+<p></p>
