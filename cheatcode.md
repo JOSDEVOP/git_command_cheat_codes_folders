@@ -21,4 +21,5 @@ to check  if the new changes have been staged and if git is tracking the new mod
 -rm -rf  directory or folder name : deletes a directory that has been provided to it. eg rm -rf  animalfolder
 -rm -f  filename :deletes a file that has been git it . 
 -git log --oneline :modifies and logs and makes them more readable.
+-git commit  --amend: is used to reset an already  commited message  git commit -m"".
 <p></p>
