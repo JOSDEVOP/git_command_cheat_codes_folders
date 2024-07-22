@@ -68,7 +68,15 @@ Github is the remote place where one can collaborate and word on repos stored on
 - -⚡ git branch -M branchname renames the name of that branch provided on your local repo
 - -⚡
 - -⚡
-```
+
+
+# HOW TO ADD A GITHUB REMOTE TO YOUR LOCAL REPO THAT YOU HAVE CREATED
+
+## Command 1: Add a Remote Repository
+
+```sh
+git remote add origin git@github.com:JOSDEVOP/git_command_cheat_codes_folders.git
+
 
 
 
