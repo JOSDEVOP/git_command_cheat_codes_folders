@@ -75,8 +75,45 @@ Github is the remote place where one can collaborate and word on repos stored on
 ## Command 1: Add a Remote Repository
 
 ```sh
-git remote add origin git@github.com:JOSDEVOP/git_command_cheat_codes_folders.git
+- -⚡ git remote add origin git@github.com:JOSDEVOP/git_command_cheat_codes_folders.git - -⚡
 
+- -⚡ git remote add origin: This part of the command is telling Git to add a new remote repository with the name origin. In Git, remotes are like bookmarks to other repositories, and origin is the conventional default name for the primary remote repository.- -⚡
+
+- -⚡ git@github.com:JOSDEVOP/git_command_cheat_codes_folders.git: This is the URL of the remote repository. It uses the SSH protocol to connect to the repository on GitHub.  - -⚡
+
+- -⚡ The URL consists of: git@github.com: The SSH protocol prefix and the host (GitHub).- -⚡
+
+- -⚡ JOSDEVOP: The GitHub username or organization name.- -⚡
+
+- -⚡ git_command_cheat_codes_folders.git: The repository name.- -⚡
+
+- -⚡ This command establishes a connection between your local repository and the specified remote repository on GitHub.- -⚡
+
+- -⚡ git branch -M main   .git branch: This is a Git command used for branch operations.
+ -M: This option stands for "move" or "rename." The -M option will rename the branch and also force the rename if a branch with the target name (main in this case) already exists.
+main: This is the new name for the current branch. By default, many repositories used to name the default branch master, but main has become the new standard default branch name in many projects and platforms, including GitHub.
+This command renames your current branch to main, standardizing it to modern conventions.- -⚡
+
+- -⚡ git push -u origin main
+
+git push: This is a Git command that updates the remote repository with commits made locally.
+-u: This option stands for "set upstream." It sets the default remote tracking branch for the current local branch. After using -u, you can use git push and git pull without specifying the remote and branch names explicitly.
+origin: This is the name of the remote repository. It's the same name you used in the first command when you added the remote.
+main: This is the name of the branch you're pushing. It corresponds to the local branch you renamed in the second command.
+This command pushes your local main branch to the origin remote repository and sets origin/main as the upstream branch for your local main branch. This makes future interactions with the main branch simpler, as you won’t need to specify the remote and branch names for subsequent git push and git pull commands.
+
+Summary
+Here’s what the entire sequence does:
+
+Adds a remote named origin pointing to your GitHub repository.
+Renames the current branch to main.
+Pushes the main branch to the origin remote repository and sets it as the upstream branch for easier future interactions.
+This setup ensures your local repository is properly connected to the remote repository, following modern branch naming conventions and simplifying future push and pull operations.
+ - -⚡
+- -⚡- -⚡
+- -⚡- -⚡
+- -⚡- -⚡
+git branch -M main
 
 
 
