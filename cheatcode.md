@@ -11,22 +11,23 @@ commands to setup git or config it one your computer manually on terminal is 1.g
 print any username if it really worked  
 </p>
 ##Gitcheat-codes
--git status: always run this a directory to check if the  directory has been git initialiazed. It can also be used 
+- git status: always run this a directory to check if the  directory has been git initialiazed. It can also be used 
 to check  if the new changes have been staged and if git is tracking the new modifications 
--git init : initialiazes a git repo .git folder in its current directory
--git add . :tells git to track the new changes made to a file 
--git commit  -m "": creates a message along with the files that have been stagged and ready to be pushed to the repo
-- git restore --staged name of file : is used to unstage a file that has been staged .eg git restore --staged go.txt
--git logs : it displays all the log of committed messages as you git push the current changes.
--rm -rf  directory or folder name : deletes a directory that has been provided to it. eg rm -rf  animalfolder
--rm -f  filename :deletes a file that has been git it . 
--git log --oneline :modifies and logs and makes them more readable.
--git commit  --amend: is used to reset an already  commited message  git commit -m"" where by the default text editor is opened to the previous git commit -m"" message  .
+- git init : initialiazes a git repo .git folder in its current directory
+- git add . :tells git to track the new changes made to a file 
+- git commit  -m "": creates a message along with the files that have been stagged and ready to be pushed to the repo
+-  git restore --staged name of file : is used to unstage a file that has been staged .eg git restore --staged go.txt
+- git logs : it displays all the log of committed messages as you git push the current changes.
+-r m -rf  directory or folder name : deletes a directory that has been provided to it. eg rm -rf  animalfolder
+- rm -f  filename :deletes a file that has been git it . 
+- git log --oneline :modifies and logs and makes them more readable.
+- git commit  --amend: is used to reset an already  commited message  git commit -m"" where by the default text editor is opened to the previous git commit -m"" message  .
 
 <p> Head: its a branch reference to its current or lastest commit on that particular branch .if say the branch you are working is 
 version1 and you make a commit the  Head would point to version1 branch lastest commit.
--git branch :logs all the branches in the repo.
--git branch branchname : creates a new branch but doesnt log into that brunch yet.eg git branch edition1 would create a new branch called edition1.
--git checkout branchname: would log us into the branch which its name has been .
--git checkout -b branchname:would create a new branch with the name given.
+- git branch :logs all the branches in the repo.
+- git branch branchname : creates a new branch but doesnt log into that brunch yet.eg git branch edition1 would create a new branch called edition1.
+- git checkout branchname: would log us into the branch which its name has been .
+- git checkout -b branchname:would create a new branch with the name given.
+- git switch -also does the same thing as git branch 
  </p>
