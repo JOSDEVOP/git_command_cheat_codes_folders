@@ -31,4 +31,5 @@ version1 and you make a commit the  Head would point to version1 branch lastest 
 - git checkout -b branchname:would create a new branch with the name given.
 - git switch -also does the same thing as git branch 
 - git merge branchname of the branch i want to add its modification into the current branch am into. eg am in branch main and there is modifications in branch edition1 that i want in branch man and the code would be like this git switch main ,git merge edition1 
+--warning always becareful where you branching before you safe a file 
  </p>
