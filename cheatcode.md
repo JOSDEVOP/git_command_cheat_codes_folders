@@ -45,7 +45,9 @@ Github is the remote place where one can collaborate and word on repos stored on
 - -⚡ git diff or git diff filename  :It reveals the changes that has been made to a file or document in your current working branch .You can only use this if you havent use the command git add . That is it hasnt been staged yet.
 - -⚡git diff --staged : it reveals the difference between  what has been staged area and what has been staged and ready to be committed .This command can only be used when you have used git add . i like this .
 - -⚡git stash or git stash save: it stashes or saves all unstaged and stagged changes for you to go to another branch and do something quickly there and come back. it helps if your are not ready to commit the changes yet.We can stash as many changes to multiple shash and you can use the git stash list to reveal all the list of them. git shash  apply or git stash pop stash@{stash id__}
-- -⚡git stash apply: it can help by apply the changes you have made to other branches without remove the like how git stash pop remove the stashed changes.
+- -⚡git stash apply: it can help by apply the changes you have made to other branches without removing the like how git stash pop remove the stashed changes.
+- -⚡git stash clear: it clears all the multiple stashes.
+- -⚡git stash drop stash@{stash id}: it removes a aparticular stash base on its id
 
 ## Head: its a branch reference to its current or lastest commit on that particular branch .if say the branch you are working is version1 and you make a commit the  Head would point to version1 branch lastest commit.
 
