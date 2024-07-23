@@ -42,7 +42,9 @@ Github is the remote place where one can collaborate and word on repos stored on
 
 - -⚡ git log --oneline :modifies and logs and makes them more readable.
 - -⚡ git diff or git diff filename  :It reveals the changes that has been made to a file or document in your current working branch .You can only use this if you havent use the command git add . That is it hasnt been staged yet.
-- -⚡git diff --staged : it reveals the difference between  what has been staged area and what has been staged and ready to be committed .This command can only be used when you have used git add .
+- -⚡git diff --staged : it reveals the difference between  what has been staged area and what has been staged and ready to be committed .This command can only be used when you have used git add . i like this .
+- -⚡git stash or git stash save: it stashes or saves all unstaged and stagged changes for you to go to another branch and do something quickly there and come back. it helps if your are not ready to commit the changes yet.
+- -⚡git stash apply: it can help by apply the changes you have made to other branches without remove the like how git stash pop remove the stashed changes.
 
 ## Head: its a branch reference to its current or lastest commit on that particular branch .if say the branch you are working is version1 and you make a commit the  Head would point to version1 branch lastest commit.
 
@@ -50,8 +52,11 @@ Github is the remote place where one can collaborate and word on repos stored on
 
 - -⚡- git branch branchname : creates a new branch but doesnt log into that brunch yet.eg git branch edition1 would create a new branch called edition1.
 - git checkout branchname: would log us into the branch which its name has been .
+
 - -⚡ git checkout -b branchname:would create a new branch with the name given.
+
 - -⚡git switch -also does the same thing as git branch 
+
 - -⚡ git merge branchname of the branch i want to add its modification into the current branch am into. eg am in branch main and there is modifications in branch edition1 that i want in branch man and the code would be like this git switch main ,git merge edition1 
 - -⚡ warning always becareful where you branching before you safe a file 
 - -⚡git branch -D branchname : deletes the branch name on your local machine or local repo.
