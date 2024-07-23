@@ -33,6 +33,8 @@ Github is the remote place where one can collaborate and word on repos stored on
 - -⚡git commit  --amend: is used to reset an already  commited message  git commit -m"" where by the default text editor is opened to the previous git commit -m"" message  .
 
 - -⚡git restore --staged name of file : is used to unstage a file that has been staged .eg git restore --staged go.txt or git restore -s filename .
+
+- -⚡git reset hash commit id you want to remove : it is used to remove a commited change base on the hash id that has been provided.
 - -⚡git restore  name of file :can be use to undone any changes that has been  made to a file in the current branch.
 
 - -⚡ git log --oneline : it displays all the log of committed messages as you git push the current changes and also displays the head.
