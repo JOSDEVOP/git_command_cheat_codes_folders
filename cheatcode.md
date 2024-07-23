@@ -55,6 +55,13 @@ Github is the remote place where one can collaborate and word on repos stored on
 - -⚡git branch -D branchname : deletes the branch name on your local machine or local repo.
 - -⚡git branch -d branch_name
 
+## How TO CREATE SSH KEYPAIR ON LOCALL MACHINE OR LAPTOP
+
+- -⚡1. we need to check if there is an existing key pair on the machine by using this command
+- -⚡`ls -al ~/.ssh`.
+- -⚡it would a files with extention /_id_ed25519.pub . if this command doesnt reveal any keypair then you can go ahead and create one using this code `ssh-keygen -t ed25519 -C "jibril.os@yahoo.com` .It would ask a few question like where do you want to store the keypairs and what passphrase you want. click on enter for all. After its done use this command to reveal the public key you need to put on the remote server :  ` cat ~/.ssh/id_ed25519.pub`
+
+## How to Delete a branch from the remote server for the terminal
 ## How to Delete a branch from the remote server for the terminal
 ```markdown
 - -⚡git fetch :  Before deleting a remote branch, it's a good idea to fetch the latest changes from the remote repository to ensure you have the most up-to-date information.
