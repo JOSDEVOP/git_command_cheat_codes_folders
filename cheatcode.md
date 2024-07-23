@@ -41,8 +41,8 @@ Github is the remote place where one can collaborate and word on repos stored on
 - -⚡rm -f  filename :deletes a file that has been git it . 
 
 - -⚡ git log --oneline :modifies and logs and makes them more readable.
-- -⚡ git diff or git diff filename  :It reveals the changes that has been made to a file or document in your current working branch .
-- -⚡git diff --staged : it reveals the difference between  what has been stage area and the last commit 
+- -⚡ git diff or git diff filename  :It reveals the changes that has been made to a file or document in your current working branch .You can only use this if you havent use the command git add . That is it hasnt been staged yet.
+- -⚡git diff --staged : it reveals the difference between  what has been staged area and what has been staged and ready to be committed .This command can only be used when you have used git add .
 
 ## Head: its a branch reference to its current or lastest commit on that particular branch .if say the branch you are working is version1 and you make a commit the  Head would point to version1 branch lastest commit.
 
