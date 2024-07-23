@@ -48,6 +48,7 @@ Github is the remote place where one can collaborate and word on repos stored on
 - -⚡git stash apply: it can help by apply the changes you have made to other branches without removing the like how git stash pop remove the stashed changes.
 - -⚡git stash clear: it clears all the multiple stashes.
 - -⚡git stash drop stash@{stash id}: it removes a aparticular stash base on its id
+- -⚡git checkout commit hash_id: it can help you travel back to a particular commit and you can create a branch from there if there is something you need there.
 
 ## Head: its a branch reference to its current or lastest commit on that particular branch .if say the branch you are working is version1 and you make a commit the  Head would point to version1 branch lastest commit.
 
